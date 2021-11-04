@@ -1373,4 +1373,189 @@ header.page-title hr {
   font-weight: bold;
 }
 
+#change-photo .btn-register {
+  min-width: 130px;
+  border: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: var(--black);
+  background-color: var(--green);
+  color: var(--white);
+  margin-top: 50px;
+}
+#change-photo .btn-register:hover {
+  background-color: var(--black-10);
+}
+#change-photo .btn-register:active {
+  background-color: var(--black-75);
+}
+#change-photo .btn-register:hover {
+  background-color: var(--green-hover);
+}
+#change-photo .btn-register:active {
+  background-color: var(--green-active);
+}
+@media (min-width: 992px) {
+  #change-photo .btn-register {
+    max-width: 260px;
+  }
+}
+
+#change-password form .page-title {
+  margin-left: 0;
+}
+@media (min-width: 1200px) {
+  #change-password form {
+    max-width: 400px;
+  }
+}
+
+#schedules .list {
+  margin: var(--space);
+  padding: 0;
+  padding-bottom: var(--space);
+  flex-direction: column;
+  border-bottom: 1px solid var(--gray-10);
+  max-width: 1275px;
+}
+#schedules .list li {
+  flex-direction: column;
+}
+#schedules .list li > section {
+  flex-wrap: wrap;
+}
+#schedules .list li > section > div {
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  color: var(--dark-0);
+}
+#schedules .list li > section > div strong {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+@media (min-width: 992px) {
+  #schedules .list li > section > div {
+    width: unset;
+    max-width: 250px;
+    margin-right: calc(2 * var(--space));
+  }
+}
+#schedules .list li .button-cancel {
+  min-width: 130px;
+  border: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: var(--black);
+  background-color: var(--red);
+  color: var(--white);
+  width: 150px;
+  align-self: center;
+  margin-top: var(--space);
+}
+#schedules .list li .button-cancel:hover {
+  background-color: var(--black-10);
+}
+#schedules .list li .button-cancel:active {
+  background-color: var(--black-75);
+}
+#schedules .list li .button-cancel:hover {
+  background-color: var(--red-hover);
+}
+#schedules .list li .button-cancel:active {
+  background-color: var(--red-active);
+}
+@media (min-width: 992px) {
+  #schedules .list li {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+#schedules .list li + li {
+  margin-top: var(--space);
+}
+
+.auth {
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.auth > header {
+  margin: calc(2 * var(--space)) auto;
+}
+.auth > header img {
+  position: relative;
+  z-index: 2;
+}
+.auth > main {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.auth > main > .page-title {
+  align-items: center;
+  margin-bottom: var(--space);
+}
+.auth > main > .page-title hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+.auth > main form .fields {
+  flex-direction: row;
+  align-items: center;
+}
+.auth > main form strong {
+  font-weight: 600;
+  font-size: 14px;
+}
+.auth > main form a {
+  text-decoration: none;
+  color: var(--dark-0);
+}
+@media (min-width: 992px) {
+  .auth > main {
+    border: 1px solid #ddd;
+    max-width: 500px;
+    border-radius: var(--border-radius);
+    padding-bottom: 75px;
+    padding-top: 130px;
+    margin-top: -130px;
+  }
+}
+.auth footer {
+  margin-top: auto;
+  color: var(--gray-9);
+}
+@media (min-width: 992px) {
+  .auth footer {
+    margin-top: var(--space);
+  }
+}
+@media (min-width: 992px) {
+  .auth {
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

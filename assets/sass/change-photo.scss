@@ -1,0 +1,9 @@
+#change-photo {
+    .btn-register {
+        @include button-green;
+        margin-top: 50px;
+        @media (min-width: 992px) {
+            max-width: 260px;
+        }
+    }
+}
